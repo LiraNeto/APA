@@ -35,7 +35,7 @@ def selectionSort (v):
     if (iMin != j):
       v[j], v[iMin] = v[iMin], v[j]
 
-input_file = raw_input('Digite o nome do arquivo: ')
+input_file = raw_input('\n\n\nDigite o nome do arquivo: ')
 
 text_file = open(input_file, "r")
 entrada = map (int, text_file.read().split())
@@ -43,7 +43,7 @@ text_file.close()
 
 cpy_insert = entrada[:]
 
-print 'Entrada para o Insertion Sort: ', cpy_insert, '\n'
+print '\n\nEntrada para o Insertion Sort: ', cpy_insert, '\n'
 
 insertionSort (cpy_insert)
 
@@ -55,6 +55,6 @@ print 'Entrada para o Selection Sort: ', cpy_selection, '\n'
 
 insertionSort (cpy_selection)
 
-print 'Saida do Selection Sort: ', cpy_selection, '\n\n'
+print 'Saida do Selection Sort: ', cpy_selection, '\n\n\n'
 
 raw_input('Aperte qualquer letra para sair.')
