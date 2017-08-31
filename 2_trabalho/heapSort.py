@@ -33,15 +33,15 @@ def heapSort(v):
 
 
 
-#input_file = raw_input('\n\n\nDigite o nome do arquivo: ')
+input_file = raw_input('\n\n\nDigite o nome do arquivo: ')
 
-#text_file = open(input_file, "r")
-#entrada = map (int, text_file.read().split())
-#text_file.close()
+text_file = open(input_file, "r")
+entrada = map (int, text_file.read().split())
+text_file.close()
 
-#cpy_heap = entrada[:]
+cpy_heap = entrada[:]
 
-cpy_heap = [64, 31, 87, 1, 35, 7, 5, 98, 0, 55, 35]
+#cpy_heap = [64, 31, 87, 1, 35, 7, 5, 98, 0, 55, 35]
 
 
 print '\n\nEntrada para o HeapSort: ', cpy_heap, '\n'
